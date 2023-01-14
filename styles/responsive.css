@@ -1,21 +1,44 @@
-/* ! styles for mobile phones */
-/* ! breakpoints from bootstrap */
+/* * styles for mobile phones */
+/* * breakpoints from bootstrap */
 /* !------------------------- */
 
 /*! Medium devices (tablets, less than 992px) */
 @media only screen and (max-width: 991.98px) {
-	.features {
+	/* * team section */
+	.team,
+	.feature-section {
 		flex-direction: column;
 		gap: 30px;
 	}
-	.feature-images img {
+	.team-images img {
 		width: 60%;
 		display: block;
 		margin: auto;
 	}
-	.feature-texts {
+	.team-details {
 		width: 80%;
 		text-align: center;
+	}
+
+	/* * feature section */
+	.feature {
+		margin-right: 0px;
+		margin: 0 0 20px 0;
+	}
+	.feature-img {
+		display: none;
+	}
+	.extra-feature > div {
+		position: relative;
+		bottom: 0px;
+		right: 0px;
+	}
+	.extra-feature {
+		text-align: center;
+		position: relative;
+	}
+	.section-title {
+		font-size: 28px;
 	}
 }
 
@@ -35,18 +58,19 @@
 	.logo {
 		margin-bottom: 20px;
 	}
-
+	.nav-links {
+		font-size: 13px;
+	}
 	/* * header content */
 	.header-content {
 		max-width: 100%;
 		padding: 20px 0;
 	}
-
-	.feature-images img {
+	/* * team section */
+	.team-images img {
 		width: 100%;
-
 	}
-	.feature-texts {
+	.team-details {
 		width: 95%;
 	}
 }

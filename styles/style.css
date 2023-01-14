@@ -35,7 +35,7 @@ main {
 	margin: auto;
 }
 section {
-	margin: 30px 0;
+	margin: 50px 0;
 }
 /* ! header styles */
 .header-container {
@@ -80,25 +80,25 @@ header {
 }
 
 /* ! feature styles */
-.features {
+.team {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 }
-.feature-images {
+.team-images {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 15px;
 }
-.feature-images img {
+.team-images img {
 	width: 200px;
 	box-shadow: 1px 0 10px rgba(0, 0, 0, 0.282);
 	border-radius: 5px;
 }
-.feature-texts {
+.team-details {
 	width: 40%;
 }
-.feature-title {
+.team-section-title {
 	font-size: 30px;
 	line-height: 40px;
 }
@@ -108,6 +108,58 @@ header {
 .orange {
 	color: #ff900e;
 }
-.feature-description {
+.team-description {
 	margin: 10px 0 20px;
+}
+
+/* ! feature-section*/
+.feature-section {
+	display: flex;
+	position: relative;
+}
+.feature-section p {
+	font-size: 12px;
+	line-height: 20px;
+}
+.feature-section-details {
+	margin-bottom: 30px;
+	max-width: 90%;
+}
+.section-title {
+	font-size: 35px;
+	line-height: 55px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+	border-left: 3px solid #ff900e;
+}
+/* ! all features */
+
+.feature {
+	padding: 10px;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.142);
+	margin: 20px;
+	margin-right: 40px;
+	border-radius: 5px;
+	max-width: 500px;
+}
+.feature-title {
+	margin-bottom: 10px;
+}
+.feature-img img {
+	width: 500px;
+}
+.extra-feature > div {
+	display: inline-block;
+	padding: 20px;
+	background-color: #ff900e;
+	text-align: center;
+	color: #fff;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 0px;
+	right: 370px;
+}
+.extra-feature p {
+	color: #fff;
+	margin-top: 5px;
 }
