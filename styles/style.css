@@ -114,8 +114,10 @@ header {
 
 /* ! feature-section*/
 .feature-section {
-	display: flex;
 	position: relative;
+}
+.feature-wrapper {
+	display: flex;
 }
 .feature-section p {
 	font-size: 12px;
@@ -125,7 +127,7 @@ header {
 	margin-bottom: 30px;
 	max-width: 90%;
 }
-.section-title {
+.feature-section-title {
 	font-size: 35px;
 	line-height: 55px;
 	padding-left: 20px;
@@ -156,10 +158,41 @@ header {
 	color: #fff;
 	border-radius: 5px;
 	position: absolute;
-	bottom: 0px;
-	right: 370px;
+	bottom: 5px;
+	right: 350px;
+}
+.extra-feature h2 {
+	font-size: 30px;
 }
 .extra-feature p {
 	color: #fff;
 	margin-top: 5px;
+}
+/* ! facts section */
+.section-details {
+	max-width: 50%;
+}
+.section-details h2 {
+	margin-bottom: 20px;
+}
+.facts-container {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+	gap: 40px;
+}
+.fact {
+	min-width: 150px;
+	padding: 20px;
+	text-align: center;
+	border: 1px solid;
+	transition: 300ms;
+}
+.fact:hover {
+	transform: scale(1.2);
+	background-color: #ff880064;
+}
+.fact img {
+	width: 35px;
+	margin-bottom: 5px;
 }
