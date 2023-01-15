@@ -89,4 +89,9 @@
 		max-width: 200px;
 		margin: auto;
 	}
+	/*! contact section */
+	.contact-container {
+		flex-direction: column;
+		gap: 30px;
+	}
 }
