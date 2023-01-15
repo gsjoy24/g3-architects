@@ -178,7 +178,7 @@ header {
 .facts-container {
 	display: flex;
 	justify-content: space-around;
-	margin-top: 50px;
+	margin-top: 70px;
 	gap: 40px;
 }
 .fact {
@@ -195,4 +195,22 @@ header {
 .fact img {
 	width: 35px;
 	margin-bottom: 5px;
+}
+
+/* ! sponsors styles */
+.sponsors .section-details {
+	margin: 70px auto 40px;
+	text-align: center;
+}
+.sponsors-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 40px;
+}
+.sponsors-container img {
+	filter: grayscale(100%); /* * got this style from google */
+	width: 130px;
+	display: block;
+	margin: auto;
 }
